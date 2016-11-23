@@ -1,0 +1,2 @@
+swig -python -c++ -py3 test_kernel_swig.i
+python3.4 setup.py build_ext --inplace
